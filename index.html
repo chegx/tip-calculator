@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Tip calculator app | Frontend Mentor</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <main>
+    <h1 class="heading">Spli<br>tter</h1>
+    <article class="calculator">
+      <form id="form" class="form">
+        <label class="label" for="inputBill">Bill</label>
+        <input id="inputBill" class="input-bill" type="text" placeholder="0">
+        <label class="label"> Select Tip %</label>
+        <ul class="radio-group">
+          <li>
+            <input type="radio" id="one" name="inputTip" value="5">
+            <label class="radio-btn" for="one">5%</label>
+          </li>
+          <li>
+            <input type="radio" id="two" name="inputTip" value="10">
+            <label class="radio-btn" for="two">10%</label>
+          </li>
+          <li>
+            <input type="radio" id="three" name="inputTip" value="15">
+            <label class="radio-btn" for="three">15%</label>
+          </li>
+          <li>
+            <input type="radio" id="four" name="inputTip" value="25">
+            <label class="radio-btn" for="four">25%</label>
+          </li>
+          <li>
+            <input type="radio" id="five" name="inputTip" value="50">
+            <label class="radio-btn" for="five">50%</label>
+          </li>
+          <li>
+            <input class="input-custom" type="text" name="inputTip" placeholder="Custom">
+          </li>
+        </ul>
+        <span id="error" class="error">Can't be zero</span>
+        <label class="label" for="inputPeople">Number of People</label>
+        <input id="inputPeople" class="input-people" type="text" placeholder="0">
+      </form>
+      <div class="output">
+        <span id="tipCalc" class="tip-number">$0.00</span>
+        <span class="tip-name">Tip Amount</span>
+        <p class="sub">/ person</p>
+        <span id="totalCalc" class="tip-number">$0.00</span>
+        <span class="tip-name">Total</span>
+        <p class="sub">/ person</p>
+        <button id="resetBtn" class="reset" disabled>Reset</button>
+      </div>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
