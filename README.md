@@ -23,9 +23,9 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Calculate the correct tip and total cost of the bill per person
 
-Mobile||Desktop|
-|---|---|---|
-|![](./screenshots/mobile.jpg)|![](./screenshots/desktop.jpg)|
+Mobile|Desktop|
+|---|---|
+|![](./screenshots/mobile.png)|![](./screenshots/desktop.png)
 
 ### Links
 
@@ -45,7 +45,7 @@ Mobile||Desktop|
 
 ### What I learned
 
-Keyword this doesn't work properly in arrow functions
+Keyword `this` doesn't work properly in arrow functions
 
 ## Author
 
